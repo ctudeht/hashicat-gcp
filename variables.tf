@@ -6,11 +6,13 @@
 # prompted to enter it (or define it via config file or command line flags.)
 
 variable "project" {
-  description = "ID of your GCP project. Make sure you set this up before running this terraform code.  REQUIRED."
+  description = "p-se1jlitcz1zn9oqn7hb0wdm2l8j7"
+  default  = "p-se1jlitcz1zn9oqn7hb0wdm2l8j7" 
 }
 
 variable "prefix" {
-  description = "This prefix will be included in the name of some resources. You can use your own name or any other short string here."
+  description = "denysp"
+  default = "denysp"
 }
 
 variable "region" {
@@ -20,7 +22,7 @@ variable "region" {
 
 variable "zone" {
   description = "The zone where the resources are created."
-  default     = "us-central1-b"
+  default     = "us-central1-a"
 }
 
 variable "subnet_prefix" {
